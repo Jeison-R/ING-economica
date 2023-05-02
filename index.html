@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi página web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Enlaces a archivos CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Enlaces a archivos JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2>Aplicativo web de los diferentes temas de ING Economica</h2>
+      <!-- Menú desplegable -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="assets/dashboard.svg" class="list__img" />
+        <a class="navbar-brand" href="#"> Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="navbar-nav mr-auto">
+          <img src="../assets/interésSimple.svg" class="list__img" />
+          <li class="nav-item active">
+            <div class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Interés Simple
+              </a>
+              <div class="dropdown-menu" aria-labevllledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Valor presente</a>
+                <a class="dropdown-item" href="#">Valor Futuro</a>
+                <a class="dropdown-item" href="#">Interés</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <img src="../assets/interesCompuesto.svg" class="list__img" />
+            <div class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Interés Compuesto
+              </a>
+              <div class="dropdown-menu" aria-labevllledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Valor presente</a>
+                <a class="dropdown-item" href="#">Valor Futuro</a>
+                <a class="dropdown-item" href="#">Interés</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <div class="dropdown">
+              <img src="../../assets/anualidades.svg" class="list__img" />
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Anualidades
+              </a>
+              <div class="dropdown-menu" aria-labevllledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Valor presente</a>
+                <a class="dropdown-item" href="#">Valor Futuro</a>
+                <a class="dropdown-item" href="#">Interés</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <div class="dropdown">
+              <img src="../../assets/gradiente.svg" class="list__img" />
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Gradiente
+              </a>
+              <div class="dropdown-menu" aria-labevllledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Valor presente</a>
+                <a class="dropdown-item" href="#">Valor Futuro</a>
+                <a class="dropdown-item" href="#">Interés</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <!-- Primer cuadro -->
+      <h2>Primer cuadro</h2>
+      <img src="imagen1.jpg" alt="Imagen 1" />
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam</p>
+    </section>
+  </body>
+</html>
